@@ -1,0 +1,8 @@
+name: sample-php-test
+services:
+    -   environment_slug: php
+        github:
+            branch: main
+            deploy_on_push: true
+            repo: https://github.com/Zortagon/php-sample-app.git
+        name: sample-php-test
